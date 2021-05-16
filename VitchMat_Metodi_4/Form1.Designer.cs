@@ -169,7 +169,7 @@ namespace VitchMat_Metodi_4
             this.t_e.Name = "t_e";
             this.t_e.Size = new System.Drawing.Size(100, 20);
             this.t_e.TabIndex = 18;
-            this.t_e.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.darkTextBox5_KeyPress);
+            this.t_e.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.t_e_KeyPress);
             // 
             // rb_pol
             // 

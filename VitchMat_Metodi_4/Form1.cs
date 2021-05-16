@@ -218,5 +218,14 @@ namespace VitchMat_Metodi_4
             darkButton2.Visible = false;
             NatchZnachLeft = -100;
         }
+
+        private void t_e_KeyPress(object sender, KeyPressEventArgs e) //запрет на ввод без ,
+        {
+            char number = e.KeyChar;
+            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8)
+            {
+                e.Handled = true;
+            }
+        }
     }
 }
